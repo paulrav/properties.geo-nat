@@ -1,0 +1,3784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>geonatafricaproperties Premium Properties in Nairobi & Beyond</title>
+    <meta name="description" content="Discover exclusive properties in Kenya's prime locations. Furnished and unfurnished homes, mansions, and apartments in Nairobi, Ruiru, Kasarani, and more.">
+    <meta name="keywords" content=" geonatafricaproperties real estate, Kenya property, Nairobi homes, furnished apartments, luxury mansions, property rental, Ruiru, Kasarani, Thome, Garden Estate">
+    <meta name="author" content="GeoNatAfricaProperties">
+    <meta property="og:title" content="geo nat africa properties
+    <meta property="og:description" content="Discover exclusive properties in Kenya's prime locations. Furnished and unfurnished homes available.">
+    <meta property="og:image" content="image14.jpg"
+    <meta property="og:url" content="https:geonatafricapropertiescom">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="geonatafricaproperties.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Structured data for real estate listings -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "air bnb propertyAgent",
+      "name": "geonatafricapropertiesKenya",
+      "image": "image14.jpg,
+      "url": "https://",
+      "telephone": "+254797797225",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Luxury Lane",
+        "addressLocality": "Nairobi",
+        "addressRegion": "Nairobi",
+        "postalCode": "00100",
+        "addressCountry": "KE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-1.2921",
+        "longitude": "36.8219"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "sameAs": [
+        "https://www.facebook.com/geonatafricaproperties,
+        "https://www.instagram.com/geonatafricaproperties,
+        "https://twitter.com/geonatafricaproperties
+      ]
+    }
+    </script>
+    <style>
+        /* CSS styles */
+        :root {
+            --primary: #2c3e50;
+            --secondary: #34495e;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --text: #333;
+            --success: #2ecc71;
+            --warning: #f39c12;
+            --danger: #e74c3c;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--light);
+            overflow-x: hidden;
+            width: 100%;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Header styles */
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+            max-width: 100%;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        /* Hero section with slider */
+        .hero {
+            height: 100vh;
+            position: relative;
+            overflow: hidden;
+            padding-top: 80px;
+            transition: background-image 1s ease-in-out; /* Smooth background image transition */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Hero slider (background image container) */
+        .hero-slider {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1; /* Ensure slider is behind the content */
+        }
+
+        /* Transition the background image */
+        .hero-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-position: center;
+            background-size: cover; /* Make the image cover the entire section */
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-slide.active {
+            opacity: 1;
+        }
+
+        /* Hero content styles */
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            color: white;
+            z-index: 10;
+            padding: 2rem;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Optional: add a shadow for subtle separation */
+            background-color: ;
+            border-radius: 10px;
+            width: 90%;
+        }
+
+        /* Hero title */
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        /* Hero description */
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        /* SEO content styling */
+        .hero-seo {
+            margin-top: 1rem;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        /* Hero badges */
+        .hero-badges {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        /* Badge style */
+        .hero-badge {
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background-color:; /* Slightly transparent background for badges */
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-badge i {
+            font-size: 1rem;
+        }
+
+        /* Ensure readability of text on different backgrounds */
+        .hero-content h1, .hero-content p, .hero-content .hero-seo {
+            text-shadow: 0px 0px 8px rgba(9, 132, 180, 0.6); /* Add shadow to text for better contrast */
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: var(--accent);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #c0392b;
+        }
+
+        /* Property category tabs */
+        .property-tabs {
+            display: flex;
+            justify-content: center;
+            margin: 2rem 0;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .tab-btn {
+            padding: 0.8rem 1.5rem;
+            background-color: var(--light);
+            color: var(--dark);
+            border: 2px solid var(--primary);
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+            text-align: center;
+            width: auto;
+        }
+
+        .tab-btn.active {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .tab-btn:hover {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        /* Featured properties */
+        .featured-properties {
+            padding: 4rem 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            line-height: 1.3;
+        }
+
+        .property-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .property-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .property-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .property-image {
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .property-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Property image carousel */
+        .property-carousel {
+            position: relative;
+            height: 100%;
+        }
+
+        .carousel-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .carousel-slide.active {
+            opacity: 1;
+        }
+
+        .carousel-controls {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            z-index: 5;
+        }
+
+        .carousel-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+        }
+
+        .carousel-dot.active {
+            background-color: white;
+        }
+
+        .carousel-prev, .carousel-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 5;
+            font-size: 0.8rem;
+        }
+
+        .carousel-prev {
+            left: 10px;
+        }
+
+        .carousel-next {
+            right: 10px;
+        }
+
+        .property-details {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .property-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .property-price {
+            font-size: 1.5rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        .property-features {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            color: var(--secondary);
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .property-features span {
+            margin-right: 0.5rem;
+            white-space: nowrap;
+        }
+
+        .property-rating {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .property-description {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: var(--text);
+            height: 80px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        .property-actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1rem;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: auto;
+        }
+
+        .property-actions .btn {
+            flex: 1;
+            min-width: 120px;
+            padding: 0.6rem 1rem;
+            font-size: 0.9rem;
+        }
+
+        .star {
+            color: var(--warning);
+        }
+
+        .property-type-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 10px;
+            background-color: var(--accent);
+            color: white;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            z-index: 5;
+        }
+
+        /* Favorite button */
+        .favorite-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border: none;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 5;
+            transition: all 0.3s ease;
+        }
+
+        .favorite-btn i {
+            color: #ccc;
+            transition: color 0.3s ease;
+        }
+
+        .favorite-btn.active i {
+            color: var(--accent);
+        }
+
+        /* Filter section */
+        .filter-section {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .filter-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .price-range {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .price-range input {
+            flex: 1;
+            min-width: 80px;
+        }
+
+        .filter-buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        /* Tours section */
+        .tours-section {
+            padding: 4rem 0;
+            background-color: #f8f9fa;
+        }
+
+        .tour-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            position: relative;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tour-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .tour-image {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .tour-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .tour-details {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tour-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .tour-price {
+            font-size: 1.5rem;
+            color: var(--accent);
+            margin-bottom: 1rem;
+        }
+
+        .tour-description {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: var(--text);
+            height: 80px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        .tour-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+
+        .tour-feature {
+            background-color: var(--light);
+            padding: 0.3rem 0.6rem;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            color: var(--dark);
+            margin-bottom: 0.3rem;
+        }
+
+        /* Blog section */
+        .blog-section {
+            padding: 4rem 0;
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .blog-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .blog-image {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .blog-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .blog-details {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .blog-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .blog-excerpt {
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            color: var(--text);
+            height: 80px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        /* Testimonials section */
+        .testimonials {
+            padding: 4rem 0;
+            background-color: #f8f9fa;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .testimonial-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            position: relative;
+            height: 100%;
+        }
+
+        .testimonial-card::before {
+            content: '\201C';
+            font-size: 4rem;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: rgba(0,0,0,0.1);
+            font-family: serif;
+        }
+
+        .testimonial-rating {
+            margin-bottom: 1rem;
+            color: var(--warning);
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 1.5rem;
+        }
+
+        .testimonial-author {
+            font-weight: bold;
+        }
+
+        .testimonial-position {
+            font-size: 0.9rem;
+            color: var(--secondary);
+        }
+
+        /* Review form */
+        .review-container {
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 90%;
+        }
+
+        .stars {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .stars input {
+            display: none;
+        }
+
+        .stars label {
+            font-size: 2rem;
+            color: #ccc;
+            cursor: pointer;
+            padding: 0 0.2rem;
+        }
+
+        .stars input:checked ~ label,
+        .stars label:hover,
+        .stars label:hover ~ label {
+            color: var(--warning);
+        }
+
+        .review {
+            border-bottom: 1px solid #ddd;
+            padding: 1rem 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+
+        .footer-section {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .footer-section p {
+            margin-bottom: 0.5rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            color: white;
+            font-size: 1.5rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--accent);
+        }
+
+        /* Admin Dashboard */
+        .admin-dashboard {
+            display: none;
+            padding-top: 60px;
+        }
+
+        .dashboard-header {
+            background-color: var(--secondary);
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .dashboard-nav {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .dashboard-nav a {
+            color: white;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .dashboard-content {
+            padding: 2rem;
+            overflow-x: auto;
+        }
+
+        .dashboard-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow-x: auto;
+        }
+
+        .dashboard-card h3 {
+            margin-bottom: 1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 600px;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Blog post editor */
+        .blog-editor {
+            margin-top: 1rem;
+        }
+
+        .blog-editor-toolbar {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .blog-editor-toolbar button {
+            padding: 0.5rem;
+            background-color: var(--light);
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .blog-editor-content {
+            min-height: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            overflow-y: auto;
+        }
+
+        /* Chat interface */
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 900;
+        }
+
+        .chat-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 300px;
+            height: 400px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: none;
+            flex-direction: column;
+            z-index: 900;
+        }
+
+        .chat-header {
+            background-color: var(--primary);
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+
+        .chat-message {
+            margin-bottom: 10px;
+            padding: 8px;
+            border-radius: 5px;
+            max-width: 80%;
+            word-wrap: break-word;
+        }
+
+        .chat-message.user {
+            background-color: var(--light);
+            align-self: flex-end;
+            margin-left: auto;
+        }
+
+        .chat-message.bot {
+            background-color: var(--primary);
+            color: white;
+            align-self: flex-start;
+        }
+
+        .chat-input {
+            display: flex;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+        }
+
+        .chat-input input {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+
+        .chat-input button {
+            padding: 8px 15px;
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 3px;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+
+        /* WhatsApp Call Button */
+        .whatsapp-call {
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 900;
+        }
+
+        /* WhatsApp Popup */
+        .whatsapp-popup {
+            position: fixed;
+            bottom: 90px;
+            right: 90px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 901;
+            display: none;
+            max-width: 250px;
+            width: 90%;
+        }
+
+        .whatsapp-popup h3 {
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+
+        .whatsapp-popup p {
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+
+        .whatsapp-popup .btn {
+            background-color: #25D366;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            overflow-y: auto;
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            position: relative;
+        }
+
+        .close {
+            position: absolute;
+            right: 20px;
+            top: 10px;
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #000;
+        }
+
+        /* Booking Form */
+        .booking-form {
+            margin-top: 1rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .form-group textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .form-row .form-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        /* Contact section */
+        .contact-section {
+            padding: 4rem 0;
+            background-color: var(--light);
+        }
+
+        .contact-options {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-option {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            min-width: 250px;
+            width: 100%;
+        }
+
+        .contact-option i {
+            font-size: 2rem;
+            color: var(--accent);
+        }
+
+        /* Calendar */
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 5px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .calendar-day {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+
+        .calendar-day.available {
+            background-color: var(--success);
+            color: white;
+        }
+
+        .calendar-day.booked {
+            background-color: var(--danger);
+            color: white;
+        }
+
+        /* Map container */
+        .map-container {
+            height: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+
+        /* Offer Banner */
+        .offer-banner {
+            background-color: var(--accent);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        /* Booking Success Modal */
+        .booking-success-modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 1100;
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .booking-success-modal h2 {
+            color: var(--success);
+            margin-bottom: 1rem;
+        }
+
+        .booking-success-modal p {
+            margin-bottom: 1.5rem;
+        }
+
+        /* Special Requests */
+        .special-requests {
+            margin-top: 20px;
+        }
+
+        .special-requests h3 {
+            margin-bottom: 10px;
+        }
+
+        .special-requests label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .checkbox-group label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0;
+        }
+
+        /* Property Details Modal */
+        .property-details-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            overflow-y: auto;
+        }
+
+        .property-details-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 2rem;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 800px;
+            position: relative;
+        }
+
+        .property-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+ 
+        .property-gallery img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .property-full-description {
+            margin-top: 1.5rem;
+            line-height: 1.8;
+        }
+
+        .property-amenities {
+            margin-top: 1.5rem;
+        }
+
+        .property-amenities h3 {
+            margin-bottom: 1rem;
+        }
+
+        .amenities-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0.5rem;
+        }
+
+        .amenity-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .amenity-item i {
+            color: var(--success);
+        }
+
+        /* Slider controls */
+        .slider-controls {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+            z-index: 100;
+        }
+
+        .slider-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .slider-dot.active {
+            background-color: white;
+        }
+
+        /* Services Section */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .service-card {
+            background: #f4f4f4;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            height: 100%;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .service-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+
+        .service-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .service-description {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        /* Safari link */
+        .safari-link {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .property-details-content {
+                max-width: 90%;
+            }
+
+            .section-title {
+                font-size: 1.8rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                background-color: var(--primary);
+                flex-direction: column;
+                padding: 1rem;
+                gap: 1rem;
+                z-index: 999;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            }
+            
+            .nav-links.show {
+                display: flex;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            .hero-content {
+                padding: 1.5rem;
+            }
+            
+            .contact-options {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .contact-option {
+                width: 100%;
+                max-width: 350px;
+            }
+            
+            .chat-container {
+                width: 100%;
+                height: 50vh;
+                bottom: 0;
+                right: 0;
+                border-radius: 10px 10px 0 0;
+            }
+            
+            .modal-content {
+                width: 95%;
+                margin: 10% auto;
+                padding: 1.5rem;
+            }
+            
+            .form-row {
+                flex-direction: column;
+                gap: 0;
+            }
+            
+            .property-details-content {
+                width: 95%;
+                margin: 10% auto;
+                padding: 1.5rem;
+            }
+            
+            .property-gallery {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            }
+
+            .filter-buttons {
+                justify-content: center;
+            }
+
+            .dashboard-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .dashboard-content {
+                padding: 1rem;
+            }
+
+            .dashboard-card {
+                padding: 1rem;
+            }
+
+            .blog-editor-toolbar {
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+            
+            .property-tabs {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .tab-btn {
+                width: 100%;
+                text-align: center;
+            }
+            
+            .property-details-content {
+                padding: 1rem;
+            }
+            
+            .property-gallery {
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .filter-row {
+                flex-direction: column;
+            }
+
+            .property-features {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .property-actions {
+                flex-direction: column;
+            }
+
+            .property-actions .btn {
+                width: 100%;
+            }
+
+            .blog-meta {
+                flex-direction: column;
+            }
+
+            .hero-badge {
+                font-size: 0.8rem;
+                padding: 0.3rem 0.8rem;
+            }
+
+            .btn {
+                padding: 0.7rem 1.2rem;
+                font-size: 0.9rem;
+            }
+
+            .whatsapp-popup {
+                right: 20px;
+                bottom: 160px;
+            }
+        }
+
+        /* For TV screens and larger displays */
+       /* For TV screens and larger displays */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .property-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .hero h1 {
+        font-size: 4rem;
+    }
+    
+    .hero p {
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile view (less than 600px) */
+@media (max-width: 600px) {
+    /* Container adjustments for mobile */
+    .container {
+        width: 100%; /* Ensure container takes up full screen width */
+        padding: 0 10px; /* Slight padding to avoid edge-to-edge content */
+        margin: 0; /* Remove margin to prevent gaps */
+    }
+    
+    /* Hero section adjustments */
+    .hero {
+        padding-top: 40px; /* Less padding for mobile screens */
+    }
+    
+    .hero p {
+        font-size: 1rem; /* Adjust font size for readability */
+    }
+    
+    /* Property cards adjustment */
+    .property-card {
+        margin-bottom: 1rem; /* Maintain consistent spacing for cards */
+    }
+    
+    /* Filter section adjustment */
+    .filter-section {
+        padding: 0.5rem; /* Less padding for mobile */
+    }
+    
+    /* Blog and testimonial grid adjustments */
+    .blog-grid, .testimonial-grid {
+        grid-template-columns: 1fr; /* Stack content vertically */
+    }
+
+    /* Footer section adjustments */
+    .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .property-type-badge {
+        font-size: 0.7rem;
+        padding: 3px 8px;
+    }
+
+    .carousel-prev, .carousel-next {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* Optional: Prevent zooming out issue on mobile devices */
+    html {
+        font-size: 16px; /* Maintain consistent font size */
+    }
+
+    body {
+        max-width: 100%;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <!-- Public Website -->
+    <header>
+        <nav class="container">
+            <div class="logo"><img src="image09.jpg" alt="geonatafricaproperties logo" style="height:50px;"></div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#properties">Properties</a>
+                <a href="#tours">Tours</a>
+                <a href="#blog">Blog</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#" id="admin-login-btn">Admin Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-slider" id="hero-slider">
+                <!-- Hero slides will be dynamically added here -->
+            </div>
+            <div class="hero-content">
+                <h1>geonatafricaproperties Kenya</h1>
+                <p>Discover Exclusive Properties in Prime Locations</p>
+                
+                <div class="hero-seo">
+                    <p>Experience the finest selection of luxury properties (air bnb, short let, staycation) across Nairobi, Ruiru, Kasarani, and beyond. Our portfolio includes furnished mansions, modern apartments, and spacious family homes designed for comfort and elegance.
+                    <span style="color:rgb(17, 206, 48);">We also offer safari travels. Want more adventures? Check out our exclusive safaris with <a href="https://www.geo-nat.com" target="_blank" class="safari-link">Geo Nat Safari</a> for more exciting tours</span>
+                    </p>
+                </div>
+                
+                <div class="hero-badges">
+                    <span class="hero-badge"><i class="fas fa-home"></i> Premium Locations</span>
+                    <span class="hero-badge"><i class="fas fa-star"></i> 5-Star Amenities</span>
+                    <span class="hero-badge"><i class="fas fa-check-circle"></i> Verified Properties</span>
+                    <span class="hero-badge"><i class="fas fa-calendar"></i> Flexible Bookings</span>
+                </div>
+                
+                <a href="#properties" class="btn">View Properties</a>
+            </div>
+            <div class="slider-controls" id="slider-controls">
+                <!-- Slider dots will be dynamically added here -->
+            </div>
+        </section>
+    
+        <div id="offer-banner" class="offer-banner" style="display: none;"></div>
+
+        <section id="properties" class="featured-properties">
+            <div class="container">
+                <h2 class="section-title">Featured Properties</h2>
+                
+                <!-- Filter Section -->
+                <div class="filter-section">
+                    <h3>Filter Properties</h3>
+                    <div class="filter-row">
+                        <div class="filter-group">
+                            <label for="location-filter">Location</label>
+                            <select id="location-filter">
+                                <option value="">All Locations</option>
+                                <option value="Ruiru">Ruiru</option>
+                                <option value="Kasarani">Kasarani</option>
+                                <option value="Thome">Thome</option>
+                                <option value="Kiambu">Kiambu</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label for="type-filter">Property Type</label>
+                            <select id="type-filter">
+                                <option value="">All Types</option>
+                                <option value="furnished">Furnished</option>
+                                <option value="unfurnished">Unfurnished</option>
+                            </select>
+                        </div>
+                        <div class="filter-group">
+                            <label>Price Range (KES)</label>
+                            <div class="price-range">
+                                <input type="number" id="min-price" placeholder="Min">
+                                <span>to</span>
+                                <input type="number" id="max-price" placeholder="Max">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-buttons">
+                        <button id="reset-filters" class="btn" style="background-color: var(--secondary);">Reset</button>
+                        <button id="apply-filters" class="btn">Apply Filters</button>
+                    </div>
+                </div>
+                
+                <div class="property-tabs">
+                    <button class="tab-btn active" data-category="all">All Properties</button>
+                    <button class="tab-btn" data-category="furnished">Furnished Properties</button>
+                    <button class="tab-btn" data-category="unfurnished">Unfurnished Properties</button>
+                </div>
+                
+                <div class="property-grid" id="property-grid">
+                    <!-- Property cards will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="tours" class="tours-section">
+            <div class="container">
+                <h2 class="section-title">Explore Our Tours</h2>
+                <div class="property-grid" id="tours-grid">
+                    <!-- Tour cards will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="blog-section">
+            <div class="container">
+                <h2 class="section-title">Latest from Our Blog</h2>
+                <div class="blog-grid" id="blog-grid">
+                    <!-- Blog posts will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section" style="padding: 40px 0;">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle" style="text-align: center; margin-bottom: 20px;">Comprehensive real estate solutions tailored to your needs</p>
+                
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-house-user"></i>
+                        </div>
+                        <h3 class="service-title">Airbnb Services</h3>
+                        <p class="service-description">
+                            We offer:<br>
+                            1. Airbnb consultation 5K for a 3 hrs session.<br>
+                            2. Airbnb furnishing. We charge 10% of the total cost.<br>
+                            3. Airbnb Management. We charge 15% per month.<br>
+                            4. Airbnb Marketing / Listing.<br>
+                            Call us today: 0114070896 or 0797797225
+                        </p>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-couch"></i>
+                        </div>
+                        <h3 class="service-title">Property Furnishing</h3>
+                        <p class="service-description">
+                            Complete property furnishing services tailored to your budget and preferences. We source all furniture, beddings, utensils, carpets, electronics, and more.
+                        </p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3 class="service-title">Airbnb Management</h3>
+                        <p class="service-description">
+                            Comprehensive management services for your Airbnb property, including handling bookings, guest communication, cleaning, maintenance, and financial reporting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle" style="text-align: center; margin-bottom: 20px;">Hear from our satisfied clients about their experience with Geo-Nat Africa Properties</p>
+                
+                <div class="testimonial-grid">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "The team at Geo-Nat Africa Properties made finding our dream home a breeze. Their attention to detail and personalized service exceeded our expectations."
+                        </p>
+                        <div class="testimonial-author">John Doe</div>
+                        <div class="testimonial-position">Property Buyer</div>
+                    </div>
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "I was impressed by the professionalism and efficiency of Geo-Nat Africa Properties. They helped me set up my Airbnb property and the returns have been amazing!"
+                        </p>
+                        <div class="testimonial-author">Jane Smith</div>
+                        <div class="testimonial-position">Airbnb Investor</div>
+                    </div>
+                    
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "The property management services provided by Geo-Nat Africa Properties are top-notch. They handle everything professionally and I don't have to worry about a thing."
+                        </p>
+                        <div class="testimonial-author">Michael Johnson</div>
+                        <div class="testimonial-position">Property Owner</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Review & Rating Section -->
+        <section id="reviews" class="section reviews">
+            <div class="review-container">
+                <h2>Leave a Review</h2>
+                
+                <!-- Star Rating -->
+                <div class="stars">
+                    <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+                    <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                    <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                    <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                    <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+                </div>
+
+                <!-- Review Text -->
+                <textarea id="reviewText" placeholder="Write your review..." rows="4" style="width: 100%; margin-top: 10px;"></textarea>
+                
+                <!-- Submit Button -->
+                <button onclick="submitReview()" class="btn btn-primary btn-sm" style="margin-top: 10px;">Submit Review</button>
+
+                <!-- Display Reviews -->
+                <h2>Reviews</h2>
+                <div id="reviewsList"></div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-options">
+                    <a href="https://wa.me/254797797225" class="contact-option" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h3>Chat on WhatsApp</h3>
+                            <p>Get instant responses</p>
+                        </div>
+                    </a>
+                    <a href="/cdn-cgi/l/email-protection#3d54535b527d5a5852535c495c5b4f545e5c4d4f524d584f4954584e135e5250" class="contact-option">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Send an Email</h3>
+                            <p>We'll respond within 24 hours</p>
+                        </div>
+                    </a>
+                    <a href="tel:+254797797225" class="contact-option">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>Speak directly with our agents</p>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>geo nat africa properties dedicated to helping you find your dream home with our expert services and exclusive property listings.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="#home" style="color: white;">Home</a></p>
+                    <p><a href="#properties" style="color: white;">Properties</a></p>
+                    <p><a href="#tours" style="color: white;">Tours</a></p>
+                    <p><a href="#blog" style="color: white;">Blog</a></p>
+                    <p><a href="#contact" style="color: white;">Contact</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Kiambu, Central Province, Kenya</p>
+                    <p><i class="fas fa-phone"></i> +254797797225</p>
+                    <p><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="137a7d757c5374767c7d72677275617a707263617c637661677a76603d707c7e">[email&#160;protected]</a></p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/GeoNat-safaris"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/GeoNatAfricaProperties"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/geonatafrisafaris"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.tiktok.com/@GeoNatAfricaSafaris"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p style="margin-top: 2rem;">&copy; 2025 geo nat africa properties All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chat Icon -->
+    <div class="chat-icon" id="chat-icon">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <!-- Chat Box -->
+    <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+            <span>Chat with Us</span>
+            <button id="close-chat-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <div class="chat-message bot">Thank you for reaching out to us! Our team will get back to you shortly.
+                <br>
+                In the meantime, feel free to contact us directly on WhatsApp: 
+                <a href="https://wa.me/254797797225" target="_blank">Click here to message us on WhatsApp</a>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="chat-input" placeholder="Type your message...">
+            <button id="chat-send">Send</button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Call Button -->
+    <div class="whatsapp-call" id="whatsapp-call">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <!-- WhatsApp Popup -->
+    <div class="whatsapp-popup" id="whatsapp-popup">
+        <h3>Contact Us on WhatsApp</h3>
+        <p>Get instant responses to your queries about our properties and services.</p>
+        <a href="https://wa.me/254797797225" class="btn" target="_blank">
+            <i class="fab fa-whatsapp"></i> Chat Now
+        </a>
+    </div>
+
+    <!-- Admin Dashboard -->
+    <div class="admin-dashboard" id="admin-dashboard">
+        <div class="dashboard-header">
+            <h2>Admin Dashboard</h2>
+            <div class="dashboard-nav">
+                <a href="#" data-section="properties">Properties</a>
+                <a href="#" data-section="bookings">Bookings</a>
+                <a href="#" data-section="reviews">Reviews</a>
+                <a href="#" data-section="messages">Messages</a>
+                <a href="#" data-section="calendar">Calendar</a>
+                <a href="#" data-section="offers">Offers</a>
+                <a href="#" data-section="blog">Blog</a>
+                <a href="#" id="logout-btn">Logout</a>
+            </div>
+        </div>
+        <div class="dashboard-content">
+            <div id="properties-section" class="dashboard-section">
+                <div class="dashboard-card">
+                    <h3>Manage Properties</h3>
+                    <button id="add-property-btn" class="btn">Add New Property</button>
+                    <table id="properties-table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Price</th>
+                                <th>Location</th>
+                                <th>Type</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Property rows will be dynamically added here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="bookings-section" class="dashboard-section" style="display: none;">
+                <div class="dashboard-card">
+                    <h3>Manage Bookings</h3>
+                    <table id="bookings-table">
+                        <thead>
+                            <tr>
+                                <th>Property</th>
+                                <th>Client</th>
+                                <th>Date</th>
+                                <th>Contact</th>
+                                <th>Email</th>
+                                <th>Message</th>
+                                <th>Special Requests</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Booking rows will be dynamically added here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="reviews-section" class="dashboard-section" style="display: none;">
+                <div class="dashboard-card">
+                    <h3>Manage Reviews</h3>
+                    <table id="reviews-table">
+                        <thead>
+                            <tr>
+                                <th>Property</th>
+                                <th>Client</th>
+                                <th>Rating</th>
+                                <th>Review</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Review rows will be dynamically added here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="messages-section" class="dashboard-section" style="display: none;">
+                <div class="dashboard-card">
+                    <h3>Client Messages</h3>
+                    <div id="admin-chat-messages">
+                        <!-- Messages will be dynamically added here -->
+                    </div>
+                    <div class="chat-input">
+                        <input type="text" id="admin-chat-input" placeholder="Type your message...">
+                        <button id="admin-chat-send" class="btn">Send</button>
+                    </div>
+                </div>
+            </div>
+            <div id="calendar-section" class="dashboard-section" style="display: none;">
+                <div class="dashboard-card">
+                    <h3>Availability Calendar</h3>
+                    <select id="calendar-property-select">
+                        <!-- Property options will be dynamically added here -->
+                    </select>
+                    <div id="availability-calendar" class="calendar">
+                        <!-- Calendar days will be dynamically added here -->
+                    </div>
+                </div>
+            </div>
+            <div id="offers-section" class="dashboard-section" style="display: none;">
+                <div class="dashboard-card">
+                    <h3>Manage Offers</h3>
+                    <form id="add-offer-form">
+                        <div class="form-group">
+                            <input type="text" id="offer-text" placeholder="Offer text" required>
+                        </div>
+                        <button type="submit" class="btn">Add Offer</button>
+                    </form>
+                    <ul id="offers-list" style="margin-top: 1rem; list-style: none;">
+                        <!-- Offer items will be dynamically added here -->
+                    </ul>
+                </div>
+            </div>
+            <div id="blog-section" class="dashboard-section" style="display: none;">
+                <div class="dashboard-card">
+                    <h3>Manage Blog Posts</h3>
+                    <button id="add-blog-btn" class="btn">Add New Blog Post</button>
+                    <table id="blog-table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Date</th>
+                                <th>Author</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Blog post rows will be dynamically added here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Admin Login</h2>
+            <form id="login-form" class="booking-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Enter your username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="add-property-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add New Property</h2>
+            <form id="add-property-form" class="booking-form">
+                <div class="form-group">
+                    <label for="property-title">Property Title</label>
+                    <input type="text" id="property-title" placeholder="Enter property title" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="property-price">Price</label>
+                        <input type="number" id="property-price" placeholder="Enter price" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="property-location">Location</label>
+                        <input type="text" id="property-location" placeholder="Enter location" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="property-bedrooms">Bedrooms</label>
+                        <input type="number" id="property-bedrooms" placeholder="Number of bedrooms" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="property-bathrooms">Bathrooms</label>
+                        <input type="number" id="property-bathrooms" placeholder="Number of bathrooms" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="property-type">Property Type</label>
+                    <select id="property-type" required>
+                        <option value="">Select property type</option>
+                        <option value="furnished">Furnished</option>
+                        <option value="unfurnished">Unfurnished</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="property-description">Description</label>
+                    <textarea id="property-description" placeholder="Enter property description" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="property-images">Property Images (URLs, comma separated)</label>
+                    <textarea id="property-images" placeholder="Enter image URLs, separated by commas" required></textarea>
+                </div>
+                <button type="submit" class="btn">Add Property</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="add-blog-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add New Blog Post</h2>
+            <form id="add-blog-form" class="booking-form">
+                <div class="form-group">
+                    <label for="blog-title">Blog Title</label>
+                    <input type="text" id="blog-title" placeholder="Enter blog title" required>
+                </div>
+                <div class="form-group">
+                    <label for="blog-image">Featured Image URL</label>
+                    <input type="text" id="blog-image" placeholder="Enter image URL" required>
+                </div>
+                <div class="form-group">
+                    <label for="blog-excerpt">Excerpt</label>
+                    <textarea id="blog-excerpt" placeholder="Enter a short excerpt" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="blog-content">Content</label>
+                    <div class="blog-editor-toolbar">
+                        <button type="button" data-command="bold"><i class="fas fa-bold"></i></button>
+                        <button type="button" data-command="italic"><i class="fas fa-italic"></i></button>
+                        <button type="button" data-command="underline"><i class="fas fa-underline"></i></button>
+                        <button type="button" data-command="insertUnorderedList"><i class="fas fa-list-ul"></i></button>
+                        <button type="button" data-command="insertOrderedList"><i class="fas fa-list-ol"></i></button>
+                        <button type="button" data-command="createLink"><i class="fas fa-link"></i></button>
+                        <button type="button" data-command="insertImage"><i class="fas fa-image"></i></button>
+                    </div>
+                    <div class="blog-editor-content" id="blog-content" contenteditable="true"></div>
+                </div>
+                <button type="submit" class="btn">Publish Blog Post</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Book Property</h2>
+            <p id="booking-property-title" style="font-size: 1.2rem; margin-bottom: 1rem;"></p>
+            <form id="booking-form" class="booking-form">
+                <input type="hidden" id="booking-property-id">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="booking-name">Full Name</label>
+                        <input type="text" id="booking-name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="booking-email">Email</label>
+                        <input type="email" id="booking-email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="booking-phone">Phone Number</label>
+                        <input type="tel" id="booking-phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="booking-date">Preferred Date</label>
+                        <input type="date" id="booking-date" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Special Requests for our dear air bnb clients</label>
+                    <div class="checkbox-group">
+                        <label>
+                            <input type="checkbox" name="private-cook"> Private Cook
+                        </label>
+                        <label>
+                            <input type="checkbox" name="flowers"> Flowers on Arrival
+                        </label>
+                        <label>
+                            <input type="checkbox" name="champagne"> Champagne on Arrival
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="booking-message">Additional Requests</label>
+                    <textarea id="booking-message" placeholder="Any specific requirements or questions?"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit Booking Request</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="property-details-modal" class="property-details-modal">
+        <div class="property-details-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-property-title"></h2>
+            <p id="modal-property-location" style="font-size: 1.1rem; color: var(--secondary);"></p>
+            <p id="modal-property-price" style="font-size: 1.5rem; color: var(--accent); margin: 1rem 0;"></p>
+            
+            <div class="property-gallery" id="property-gallery">
+                <!-- Property images will be added here -->
+            </div>
+            
+            <div class="property-full-description" id="property-full-description">
+                <!-- Full property description will be added here -->
+            </div>
+            
+            <div class="property-amenities">
+                <h3>Property Features</h3>
+                <div class="amenities-list" id="property-amenities-list">
+                    <!-- Amenities will be added here -->
+                </div>
+            </div>
+            
+            <!-- Map container for property location -->
+            <div class="map-container" id="property-map">
+                <!-- Property map will be loaded here -->
+            </div>
+            
+            <div style="display: flex; justify-content: space-between; margin-top: 2rem; flex-wrap: wrap; gap: 1rem;">
+                <button class="btn" id="modal-book-now-btn">Book Now</button>
+                <button class="btn" style="background-color: var(--secondary);" id="modal-close-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="booking-success-modal" class="booking-success-modal">
+        <h2><i class="fas fa-check-circle"></i> Booking Successful!</h2>
+        <p>Thank you for your booking request. We will contact you shortly to confirm your reservation.</p>
+        <p>A confirmation email has been sent to your email address.</p>
+        <button id="close-success-modal" class="btn">Close</button>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // JavaScript code
+        document.addEventListener('DOMContentLoaded', function() {
+            // Sample data
+            let properties = [
+                { 
+                    id: 1, 
+                    title: "Kimbo Mansion in Ruiru", 
+                    price: 0, 
+                    location: "Kimbo, Ruiru", 
+                    bedrooms: 5, 
+                    bathrooms: 4, 
+                    images: ["image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg", "image8.jpg"], 
+                    rating: 4.5, 
+                    reviews: 10, 
+                    availability: {},
+                    type: "furnished",
+                    description: "Nestled in the serene Kimbo neighborhood of Ruiru, just behind Spur Mall, our spacious 5-bedroom mansion offers the perfect setting for medium-sized events and gatherings. Whether you're planning a family reunion, a graduation party, a bridal pickup, or a corporate retreat, our property provides the ideal blend of comfort and convenience.",
+                    amenities: ["Fully furnished", "Equipped kitchen", "Wi-Fi", "Smart TV", "Secure parking", "Expansive compound", "Tranquil environment"]
+                },
+                { 
+                    id: 2, 
+                    title: "Stylish 2-Bedroom Apartment", 
+                    price: 0, 
+                    location: "Behind Garden City Mall, Nairobi", 
+                    bedrooms: 2, 
+                    bathrooms: 2, 
+                    images: ["image14.jpg", "image15.jpg", "image16.jpg", "image17.jpg", "image18.jpg"], 
+                    rating: 4.2, 
+                    reviews: 8, 
+                    availability: {},
+                    type: "furnished",
+                    description: "Fully furnished 2-bedroom apartment with a spacious layout and modern amenities. Perfect for a staycation, business trip, or family getaway.",
+                    amenities: ["Open kitchen layout", "Prime location behind Garden City Mall", "Cozy furniture", "Modern design", "Fully equipped"]
+                },
+                { 
+                    id: 3, 
+                    title: "6 Bedroom Mansion in Kasarani", 
+                    price: 0, 
+                    location: "Kasarani", 
+                    bedrooms: 6, 
+                    bathrooms: 5, 
+                    images: ["imageC.jpg", "imagea.jpg", "imageb.jpg", "imaged.jpg", "imagee.jpg"], 
+                    rating: 4.8, 
+                    reviews: 15, 
+                    availability: {},
+                    type: "furnished",
+                    description: "Located near Wakalucy Fish, this stunning 6-bedroom mansion is situated within a gated estate with excellent security. Features a private compound with its own gates. The spacious compound can accommodate up to 200 guests, making it perfect for events and gatherings.",
+                    amenities: ["Private compound", "Gated community", "7 beds total", "24/7 house caretaker", "Fully furnished kitchen", "2 minutes from Thika Road", "3 minutes from TRM Mall"]
+                },
+                { 
+                    id: 4, 
+                    title: "Cozy Stylish 5-Bedroom in Kasarani", 
+                    price: 0, 
+                    location: "Kasarani", 
+                    bedrooms: 5, 
+                    bathrooms: 4, 
+                    images: ["image23.jpg", "image22.jpg", "image21.jpg", "image20.jpg", "image19.jpg"], 
+                    rating: 4.0, 
+                    reviews: 6, 
+                    availability: {},
+                    type: "furnished",
+                    description: "This isn't just a place to stay; it's your home away from home. Imagine a spacious, stylish house with 5 bedrooms, each with its own balcony, nestled in a quiet neighborhood just minutes from TRM and Garden City in Kasarani.",
+                    amenities: ["Private balconies", "Fully equipped kitchen", "Smart TV", "PS4", "Private compound", "BBQ station", "Peaceful garden"]
+                },
+                { 
+                    id: 5, 
+                    title: "THOME 6 BEDROOM AIRBNB", 
+                    price: 0, 
+                    location: "Thome", 
+                    bedrooms: 6, 
+                    bathrooms: 5, 
+                    images: ["image9.jpg", "image10.jpg", "image11.jpg", "image12.jpg", "image13.jpg"], 
+                    rating: 4.9, 
+                    reviews: 20, 
+                    availability: {},
+                    type: "furnished",
+                    description: "The house is located in a residential gated estate in Thome. It's fully furnished with unique pieces and features 6 bedrooms with 16 beds in total. Small private events with noise limit allowed. Customised tours and travel packages can be arranged at an extra cost.",
+                    amenities: ["UN BLUE ZONE", "Fully furnished", "16 beds total", "Private events allowed", "Bridal pickups", "Private rooms available"]
+                },
+                { 
+                    id: 6, 
+                    title: "Spacious 5 Bedroom Retreat", 
+                    price: 0, 
+                    location: "Ruiru Bypass Area", 
+                    bedrooms: 5, 
+                    bathrooms: 3, 
+                    images: ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"], 
+                    rating: 4.3, 
+                    reviews: 12, 
+                    availability: {},
+                    type: "furnished",
+                    description: "Discover the perfect setting for your next event or family getaway in our beautifully furnished 5-bedroom home.",
+                    amenities: ["5 spacious bedrooms with 6 comfortable beds", "Modern amenities", "Stylish furnishings", "Fully equipped kitchen", "Expansive compound, perfect for tent setups and barbecues", "Perfect for events", "Ample and secure parking within the compound"]
+                },
+                { 
+                    id: 7, 
+                    title: "Spacious 4-Bedroom House", 
+                    price: 200000, 
+                    location: "along Kiambu Road", 
+                    bedrooms: 5, 
+                    bathrooms: 4, 
+                    images: ["villa.jpg", "image4.jpg", "imagec.jpg", "image2.jpg", "image5.jpg"], 
+                    rating: 4.1, 
+                    reviews: 5, 
+                    availability: {},
+                    type: "unfurnished",
+                    description: "A spacious 4-bedroom house located in a secure gated community on Kiambu Road. Perfect for families looking for a long-term rental.",
+                    amenities: [ "Private compound", "Lush green garden", "Spacious interiors", "Perfect for large groups", "Safe neighborhood"]
+                },
+                { 
+                    id: 8, 
+                    title: "Modern mansion", 
+                    price: 30000, 
+                    location: "membley estate", 
+                    bedrooms: 2, 
+                    bathrooms: 2, 
+                    images: ["mansion.jpg", "image4.jpg", "imagec.jpg", "image2.jpg", "image5.jpg"], 
+                    rating: 4.7, 
+                    reviews: 18, 
+                    availability: {},
+                    type: "unfurnished",
+                    description: "A shared compound of two families, with enough parking space",
+                    amenities: ["Private compound", "Lush green garden", "Spacious interiors", "Perfect for large groups", "Safe neighborhood"]
+                },
+                { 
+                    id: 9, 
+                    title: "Garden Estate Gem: 5-Bedroom Airbnb Retreat", 
+                    price: 0, 
+                    location: "Garden Estate", 
+                    bedrooms: 5, 
+                    bathrooms: 4, 
+                    images: ["b1.jpg", "b2.jpg", "b3.jpg", "b4.jpg"], 
+                    rating: 4.8, 
+                    reviews: 12, 
+                    availability: {},
+                    type: "furnished",
+                    description: "Discover the perfect blend of luxury and comfort at our centrally located 5-bedroom home in Garden Estate - a UN-approved blue zone area!",
+                    amenities: ["Centrally located for easy navigation", "Private compound with a lush green front garden", "Spacious interiors, ideal for hosting large groups"]
+                }
+            ];
+
+            let tours = [
+                {
+                    id: 1,
+                    title: "Kereita Forest Adventure",
+                    price: 0,
+                    image: "KEREITA.jpg",
+                    description: "Discover the tranquility and beauty of nature with our Kereita Nature Trail Tour Package! This package includes a guided forest exploration, a thrilling canopy walk, a visit to the majestic Karura Waterfall, and more.",
+                    features: ["Guided Forest Exploration", "Canopy Walk", "Karura Waterfall", "Bird Watching", "Zip-lining"]
+                },
+                {
+                    id: 2,
+                    title: "Nairobi National Park Day Tour",
+                    price: 3500,
+                    image: "LION.jpg",
+                    description: "Experience the thrill of a Kenya safari right at the doorstep of the city on our exclusive half-day tour to Nairobi National Park! Witness the untamed beauty of black rhinos, lions, giraffes, leopards, and more.",
+                    features: ["Door-to-door transport", "Wildlife encounters", "Expert guides", "Photo opportunities", "Half-day adventure"]
+                },
+                {
+                    id: 3,
+                    title: "Nairobi Wildlife & Culture Weekend",
+                    price: 3000,
+                    image: "NAIROBI.jpg",
+                    description: "Join us every Friday & Saturday for an unforgettable adventure through the wild and historic gems of Nairobi! Explore Nairobi National Park, visit the famous Giraffe Center, and discover the Museum & Snake Park.",
+                    features: ["Game drive", "Giraffe Center", "Museum & Snake Park", "CBD pickup", "Group discounts"]
+                },
+                {
+                    id: 4,
+                    title: "Mombasa Hotel Vacation Package",
+                    price: 30000,
+                    image: "vacationbest.jpg",
+                    description: "Ready for a beach getaway? Geo-Nat Africa has covered you with our Mombasa hotel vacation package, designed for every traveler",
+                    features: ["Full board", "Luxurious stay", "Garden view room", "Multiple travel options", "Perfect for groups"]
+                },
+                {
+                    id: 5,
+                    title: "COTTAGE GETAWAY",
+                    price: 0,
+                    image: "cottage.jpg",
+                    description: "Ideal getaway or stop-over in Sagana, along the Nairobi-Nyeri Highway. A perfect stop for meals, drinks, or a getaway for couples or groups. Enjoy spacious gardens, camping & accommodation facilities.",
+                    features: ["Bonfire", "Badminton", "Card and jenga games"],
+                },
+                {
+                    id: 6,
+                    title: "Experience the Ultimate Vacation with Us",
+                    price: 0,
+                    image: "weekendnairobi.jpg",
+                    description: "From the moment you land to the time you step into your vacation haven, we've got you covered!",
+                    features: ["AIRPORT WELCOME & TRANSFER", "WARM WELCOME DINNER", "Airport pickup", "Transfer service"]
+                },
+            ];
+
+            // Blog posts data
+            let blogPosts = [
+                {
+                    id: 1,
+                    title: "Top 5 Neighborhoods in Nairobi for Property Investment",
+                    image: "image1.jpg",
+                    date: "2023-05-15",
+                    author: "John Doe",
+                    excerpt: "Discover the most promising neighborhoods in Nairobi for real estate investment in 2023.",
+                    content: "<p>Nairobi's real estate market continues to grow, offering excellent investment opportunities. Here are the top 5 neighborhoods to consider:</p><h3>1. Karen</h3><p>Known for its spacious properties and serene environment, Karen remains a top choice for luxury homes.</p><h3>2. Kilimani</h3><p>This centrally located neighborhood offers great returns on apartment investments.</p><h3>3. Westlands</h3><p>A commercial hub with high demand for both residential and commercial properties.</p><h3>4. Runda</h3><p>An exclusive neighborhood with high-end properties and excellent security.</p><h3>5. Kiambu Road</h3><p>Developing rapidly with new projects and affordable options.</p>",
+                    status: "Published"
+                },
+                {
+                    id: 2,
+                    title: "How to Prepare Your Property for Airbnb Success",
+                    image: "image14.jpg",
+                    date: "2023-06-20",
+                    author: "Jane Smith",
+                    excerpt: "Learn the essential steps to make your property stand out on Airbnb and maximize your rental income.",
+                    content: "<p>The short-term rental market in Kenya is booming. Here's how to make your property successful on Airbnb:</p><h3>Professional Photography</h3><p>Invest in professional photos that showcase your property's best features.</p><h3>Thoughtful Amenities</h3><p>Provide extras like coffee, tea, and local guides to enhance guest experience.</p><h3>Efficient Check-in</h3><p>Create a seamless check-in process with clear instructions.</p><h3>Local Partnerships</h3><p>Partner with local businesses to offer guests special discounts.</p><h3>Responsive Communication</h3><p>Always respond promptly to inquiries and messages.</p>",
+                    status: "Published"
+                },
+                {
+                    id: 3,
+                    title: "Safari Adventures: Combining Property Tours with Wildlife Experiences",
+                    image: "LION.jpg",
+                    date: "2023-07-10",
+                    author: "Michael Johnson",
+                    excerpt: "Explore how we're creating unique property viewing experiences combined with Kenya's famous safaris.",
+                    content: "<p>At Geo-Nat Africa Properties, we're revolutionizing property viewings by combining them with safari adventures. This innovative approach allows international investors to experience Kenya's natural beauty while exploring potential property investments.</p><h3>Nairobi National Park Property Tour</h3><p>View exclusive properties around Nairobi and visit the park in the same day.</p><h3>Coastal Property and Marine Safari</h3><p>Explore beach properties and enjoy marine wildlife experiences.</p><h3>Luxury Lodge Investment Tours</h3><p>For those interested in hospitality investments, tour existing lodges and potential development sites.</p>",
+                    status: "Published"
+                }
+            ];
+
+            // Hero slider images
+            const heroSlides = [
+                "image1.jpg",
+                "imagex.jpg",
+                "image15.jpg",
+                "imagez.jpg",
+                "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1453&q=80"
+            ];
+
+            let bookings = [];
+            let reviews = [];
+            let messages = [];
+            let offers = [];
+            let currentSlide = 0;
+            let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+
+            // DOM elements
+            const propertyGrid = document.getElementById('property-grid');
+            const toursGrid = document.getElementById('tours-grid');
+            const blogGrid = document.getElementById('blog-grid');
+            const adminLoginBtn = document.getElementById('admin-login-btn');
+            const adminDashboard = document.getElementById('admin-dashboard');
+            const loginModal = document.getElementById('login-modal');
+            const loginForm = document.getElementById('login-form');
+            const logoutBtn = document.getElementById('logout-btn');
+            const addPropertyBtn = document.getElementById('add-property-btn');
+            const addPropertyModal = document.getElementById('add-property-modal');
+            const addPropertyForm = document.getElementById('add-property-form');
+            const addBlogBtn = document.getElementById('add-blog-btn');
+            const addBlogModal = document.getElementById('add-blog-modal');
+            const addBlogForm = document.getElementById('add-blog-form');
+            const propertiesTable = document.getElementById('properties-table');
+            const bookingsTable = document.getElementById('bookings-table');
+            const reviewsTable = document.getElementById('reviews-table');
+            const blogTable = document.getElementById('blog-table');
+            const chatIcon = document.getElementById('chat-icon');
+            const chatContainer = document.getElementById('chat-container');
+            const chatMessages = document.getElementById('chat-messages');
+            const chatInput = document.getElementById('chat-input');
+            const chatSendBtn = document.getElementById('chat-send');
+            const closeChatBtn = document.getElementById('close-chat-btn');
+            const whatsappCall = document.getElementById('whatsapp-call');
+            const whatsappPopup = document.getElementById('whatsapp-popup');
+            const adminChatMessages = document.getElementById('admin-chat-messages');
+            const adminChatInput = document.getElementById('admin-chat-input');
+            const adminChatSendBtn = document.getElementById('admin-chat-send');
+            const calendarPropertySelect = document.getElementById('calendar-property-select');
+            const availabilityCalendar = document.getElementById('availability-calendar');
+            const addOfferForm = document.getElementById('add-offer-form');
+            const offersList = document.getElementById('offers-list');
+            const offerBanner = document.getElementById('offer-banner');
+            const bookingModal = document.getElementById('booking-modal');
+            const bookingForm = document.getElementById('booking-form');
+            const bookingSuccessModal = document.getElementById('booking-success-modal');
+            const closeSuccessModalBtn = document.getElementById('close-success-modal');
+            const propertyDetailsModal = document.getElementById('property-details-modal');
+            const modalPropertyTitle = document.getElementById('modal-property-title');
+            const modalPropertyLocation = document.getElementById('modal-property-location');
+            const modalPropertyPrice = document.getElementById('modal-property-price');
+            const propertyGallery = document.getElementById('property-gallery');
+            const propertyFullDescription = document.getElementById('property-full-description');
+            const propertyAmenitiesList = document.getElementById('property-amenities-list');
+            const modalBookNowBtn = document.getElementById('modal-book-now-btn');
+            const modalCloseBtn = document.getElementById('modal-close-btn');
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const navLinks = document.getElementById('nav-links');
+            const propertyTabs = document.querySelectorAll('.tab-btn');
+            const heroSlider = document.getElementById('hero-slider');
+            const sliderControls = document.getElementById('slider-controls');
+            const locationFilter = document.getElementById('location-filter');
+            const typeFilter = document.getElementById('type-filter');
+            const minPriceFilter = document.getElementById('min-price');
+            const maxPriceFilter = document.getElementById('max-price');
+            const applyFiltersBtn = document.getElementById('apply-filters');
+            const resetFiltersBtn = document.getElementById('reset-filters');
+            const propertyMap = document.getElementById('property-map');
+            const map = document.getElementById('map');
+
+            // Functions
+            function setupHeroSlider() {
+                // Create slides
+                heroSlides.forEach((slide, index) => {
+                    const slideElement = document.createElement('div');
+                    slideElement.className = `hero-slide ${index === 0 ? 'active' : ''}`;
+                    slideElement.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('${slide}')`;
+                    heroSlider.appendChild(slideElement);
+                    
+                    // Create dot controls
+                    const dot = document.createElement('div');
+                    dot.className = `slider-dot ${index === 0 ? 'active' : ''}`;
+                    dot.setAttribute('data-slide', index);
+                    sliderControls.appendChild(dot);
+                    
+                    dot.addEventListener('click', () => {
+                        changeSlide(index);
+                    });
+                });
+                
+                // Auto-rotate slides
+                setInterval(() => {
+                    currentSlide = (currentSlide + 1) % heroSlides.length;
+                    changeSlide(currentSlide);
+                }, 5000);
+            }
+            
+            function changeSlide(index) {
+                const slides = document.querySelectorAll('.hero-slide');
+                const dots = document.querySelectorAll('.slider-dot');
+                
+                slides.forEach(slide => slide.classList.remove('active'));
+                dots.forEach(dot => dot.classList.remove('active'));
+                
+                slides[index].classList.add('active');
+                dots[index].classList.add('active');
+                
+                currentSlide = index;
+            }
+
+            function displayProperties(category = 'all', filters = {}) {
+                propertyGrid.innerHTML = '';
+                
+                // Apply filters
+                let filteredProperties = properties;
+                
+                // Filter by category
+                if (category !== 'all') {
+                    filteredProperties = filteredProperties.filter(property => property.type === category);
+                }
+                
+                // Apply additional filters
+                if (filters.location) {
+                    filteredProperties = filteredProperties.filter(property => 
+                        property.location.toLowerCase().includes(filters.location.toLowerCase())
+                    );
+                }
+                
+                if (filters.type) {
+                    filteredProperties = filteredProperties.filter(property => property.type === filters.type);
+                }
+                
+                if (filters.minPrice) {
+                    filteredProperties = filteredProperties.filter(property => 
+                        property.price >= filters.minPrice
+                    );
+                }
+                
+                if (filters.maxPrice) {
+                    filteredProperties = filteredProperties.filter(property => 
+                        property.price <= filters.maxPrice
+                    );
+                }
+                
+                filteredProperties.forEach(property => {
+                    const propertyCard = document.createElement('div');
+                    propertyCard.className = 'property-card';
+                    propertyCard.style.position = 'relative';
+                    
+                    const typeBadge = document.createElement('div');
+                    typeBadge.className = 'property-type-badge';
+                    typeBadge.textContent = property.type === 'furnished' ? 'Furnished' : 'Unfurnished';
+                    
+                    // Create image carousel
+                    let carouselHTML = `
+                        <div class="property-carousel">
+                    `;
+                    
+                    property.images.forEach((image, index) => {
+                        carouselHTML += `
+                            <div class="carousel-slide ${index === 0 ? 'active' : ''}">
+                                <img src="${image}" alt="${property.title} - Image ${index + 1}">
+                            </div>
+                        `;
+                    });
+                    
+                    carouselHTML += `
+                            <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
+                            <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+                            <div class="carousel-controls">
+                    `;
+                    
+                    property.images.forEach((_, index) => {
+                        carouselHTML += `
+                            <div class="carousel-dot ${index === 0 ? 'active' : ''}" data-slide="${index}"></div>
+                        `;
+                    });
+                    
+                    carouselHTML += `
+                            </div>
+                        </div>
+                    `;
+                    
+                    // Check if property is in favorites
+                    const isFavorite = favorites.includes(property.id);
+                    
+                    propertyCard.innerHTML = `
+                        <div class="property-image">
+                            ${carouselHTML}
+                            <button class="favorite-btn ${isFavorite ? 'active' : ''}" data-id="${property.id}">
+                                <i class="fas fa-heart"></i>
+                            </button>
+                        </div>
+                        <div class="property-details">
+                            <h3 class="property-title">${property.title}</h3>
+                            <p class="property-price">
+                                ${property.price ? `Ksh ${property.price.toLocaleString()}` : "Price Not Available"}
+                            </p>
+                            <div class="property-features">
+                                <span><i class="fas fa-bed"></i> ${property.bedrooms} beds</span>
+                                <span><i class="fas fa-bath"></i> ${property.bathrooms} baths</span>
+                                <span><i class="fas fa-map-marker-alt"></i> ${property.location}</span>
+                            </div>
+                            <p class="property-description">${property.description}</p>
+                            <div class="property-rating">
+                                ${getStarRating(property.rating)}
+                                <span>(${property.reviews} reviews)</span>
+                            </div>
+                            <div class="property-actions">
+                                <button class="btn view-details-btn" data-id="${property.id}">View Details</button>
+                                <button class="btn book-now-btn" data-id="${property.id}">Book Now</button>
+                            </div>
+                        </div>
+                    `;
+                    propertyCard.appendChild(typeBadge);
+                    propertyGrid.appendChild(propertyCard);
+                });
+
+                // Add event listeners to the buttons
+                document.querySelectorAll('.book-now-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const propertyId = parseInt(this.getAttribute('data-id'));
+                        openBookingModal(propertyId);
+                    });
+                });
+
+                document.querySelectorAll('.view-details-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const propertyId = parseInt(this.getAttribute('data-id'));
+                        openPropertyDetailsModal(propertyId);
+                    });
+                });
+                
+                // Add event listeners for image carousel
+                document.querySelectorAll('.carousel-prev').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const carousel = this.closest('.property-carousel');
+                        const slides = carousel.querySelectorAll('.carousel-slide');
+                        const dots = carousel.querySelectorAll('.carousel-dot');
+                        const activeSlide = carousel.querySelector('.carousel-slide.active');
+                        const activeIndex = Array.from(slides).indexOf(activeSlide);
+                        const newIndex = (activeIndex - 1 + slides.length) % slides.length;
+                        
+                        slides.forEach(slide => slide.classList.remove('active'));
+                        dots.forEach(dot => dot.classList.remove('active'));
+                        
+                        slides[newIndex].classList.add('active');
+                        dots[newIndex].classList.add('active');
+                    });
+                });
+                
+                document.querySelectorAll('.carousel-next').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const carousel = this.closest('.property-carousel');
+                        const slides = carousel.querySelectorAll('.carousel-slide');
+                        const dots = carousel.querySelectorAll('.carousel-dot');
+                        const activeSlide = carousel.querySelector('.carousel-slide.active');
+                        const activeIndex = Array.from(slides).indexOf(activeSlide);
+                        const newIndex = (activeIndex + 1) % slides.length;
+                        
+                        slides.forEach(slide => slide.classList.remove('active'));
+                        dots.forEach(dot => dot.classList.remove('active'));
+                        
+                        slides[newIndex].classList.add('active');
+                        dots[newIndex].classList.add('active');
+                    });
+                });
+                
+                document.querySelectorAll('.carousel-dot').forEach(dot => {
+                    dot.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const carousel = this.closest('.property-carousel');
+                        const slides = carousel.querySelectorAll('.carousel-slide');
+                        const dots = carousel.querySelectorAll('.carousel-dot');
+                        const newIndex = parseInt(this.getAttribute('data-slide'));
+                        
+                        slides.forEach(slide => slide.classList.remove('active'));
+                        dots.forEach(dot => dot.classList.remove('active'));
+                        
+                        slides[newIndex].classList.add('active');
+                        dots[newIndex].classList.add('active');
+                    });
+                });
+                
+                // Add event listeners for favorites
+                document.querySelectorAll('.favorite-btn').forEach(btn => {
+                    btn.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const propertyId = parseInt(this.getAttribute('data-id'));
+                        toggleFavorite(propertyId, this);
+                    });
+                });
+            }
+            
+            function toggleFavorite(propertyId, button) {
+                const index = favorites.indexOf(propertyId);
+                
+                if (index === -1) {
+                    // Add to favorites
+                    favorites.push(propertyId);
+                    button.classList.add('active');
+                } else {
+                    // Remove from favorites
+                    favorites.splice(index, 1);
+                    button.classList.remove('active');
+                }
+                
+                // Save to localStorage
+                localStorage.setItem('favorites', JSON.stringify(favorites));
+            }
+
+            function displayTours() {
+                toursGrid.innerHTML = '';
+                tours.forEach(tour => {
+                    const tourCard = document.createElement('div');
+                    tourCard.className = 'tour-card';
+                    
+                    let featuresHTML = '';
+                    tour.features.forEach(feature => {
+                        featuresHTML += `<span class="tour-feature"><i class="fas fa-check"></i> ${feature}</span>`;
+                    });
+                    
+                    tourCard.innerHTML = `
+                        <div class="tour-image">
+                            <img src="${tour.image}" alt="${tour.title}">
+                        </div>
+                        <div class="tour-details">
+                            <h3 class="tour-title">${tour.title}</h3>
+                            <p class="tour-price">${tour.price ? `KES ${tour.price.toLocaleString()}` : "Price on Request"}</p>
+                            <p class="tour-description">${tour.description}</p>
+                            <div class="tour-features">
+                                ${featuresHTML}
+                            </div>
+                            <div class="property-actions" style="margin-top: 1rem;">
+                                <button class="btn book-tour-btn" data-id="${tour.id}">Book Tour</button>
+                            </div>
+                        </div>
+                    `;
+                    toursGrid.appendChild(tourCard);
+                });
+
+                // Add event listeners to the buttons
+                document.querySelectorAll('.book-tour-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const tourId = parseInt(this.getAttribute('data-id'));
+                        openBookingModal(tourId, true);
+                    });
+                });
+            }
+            
+            function displayBlogPosts() {
+                blogGrid.innerHTML = '';
+                blogPosts.forEach(post => {
+                    const blogCard = document.createElement('div');
+                    blogCard.className = 'blog-card';
+                    
+                    blogCard.innerHTML = `
+                        <div class="blog-image">
+                            <img src="${post.image}" alt="${post.title}">
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-title">${post.title}</h3>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-user"></i> ${post.author}</span>
+                                <span><i class="fas fa-calendar"></i> ${formatDate(post.date)}</span>
+                            </div>
+                            <p class="blog-excerpt">${post.excerpt}</p>
+                            <div class="property-actions" style="margin-top: 1rem;">
+                                <button class="btn view-blog-btn" data-id="${post.id}">Read More</button>
+                            </div>
+                        </div>
+                    `;
+                    blogGrid.appendChild(blogCard);
+                });
+                
+                // Add event listeners to the buttons
+                document.querySelectorAll('.view-blog-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const blogId = parseInt(this.getAttribute('data-id'));
+                        openBlogPostModal(blogId);
+                    });
+                });
+            }
+            
+            function formatDate(dateString) {
+                const options = { year: 'numeric', month: 'long', day: 'numeric' };
+                return new Date(dateString).toLocaleDateString(undefined, options);
+            }
+
+            function getStarRating(rating) {
+                let starsHTML = '';
+                const fullStars = Math.floor(rating);
+                const halfStar = rating % 1 >= 0.5;
+                
+                for (let i = 0; i < fullStars; i++) {
+                    starsHTML += '<i class="fas fa-star star"></i>';
+                }
+                
+                if (halfStar) {
+                    starsHTML += '<i class="fas fa-star-half-alt star"></i>';
+                }
+                
+                const emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
+                for (let i = 0; i < emptyStars; i++) {
+                    starsHTML += '<i class="far fa-star star"></i>';
+                }
+                
+                return starsHTML;
+            }
+
+            function displayPropertiesTable() {
+                const tbody = propertiesTable.querySelector('tbody');
+                tbody.innerHTML = '';
+                properties.forEach(property => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${property.title}</td>
+                        <td>${property.price ? `Ksh ${property.price.toLocaleString()}` : "Price Not Available"}</td>
+                        <td>${property.location}</td>
+                        <td>${property.type === 'furnished' ? 'Furnished' : 'Unfurnished'}</td>
+                        <td>
+                            <button class="btn edit-property" data-id="${property.id}">Edit</button>
+                            <button class="btn delete-property" data-id="${property.id}" style="background-color: var(--danger);">Delete</button>
+                        </td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            }
+            
+            function displayBlogTable() {
+                const tbody = blogTable.querySelector('tbody');
+                tbody.innerHTML = '';
+                blogPosts.forEach(post => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${post.title}</td>
+                        <td>${formatDate(post.date)}</td>
+                        <td>${post.author}</td>
+                        <td>${post.status}</td>
+                        <td>
+                            <button class="btn edit-blog" data-id="${post.id}">Edit</button>
+                            <button class="btn delete-blog" data-id="${post.id}" style="background-color: var(--danger);">Delete</button>
+                        </td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            }
+
+            function displayBookingsTable() {
+                const tbody = bookingsTable.querySelector('tbody');
+                tbody.innerHTML = '';
+                bookings.forEach(booking => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${booking.property}</td>
+                        <td>${booking.client}</td>
+                        <td>${booking.date}</td>
+                        <td>${booking.contact}</td>
+                        <td>${booking.email}</td>
+                        <td>${booking.message || 'N/A'}</td>
+                        <td>${booking.specialRequests || 'None'}</td>
+                        <td>${booking.status}</td>
+                        <td>
+                            <button class="btn edit-booking" data-id="${booking.id}">Edit</button>
+                            <button class="btn delete-booking" data-id="${booking.id}" style="background-color: var(--danger);">Delete</button>
+                        </td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            }
+
+            function displayReviewsTable() {
+                const tbody = reviewsTable.querySelector('tbody');
+                tbody.innerHTML = '';
+                reviews.forEach(review => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${review.property}</td>
+                        <td>${review.client}</td>
+                        <td>${review.rating}</td>
+                        <td>${review.text}</td>
+                        <td>
+                            <button class="btn delete-review" data-id="${review.id}" style="background-color: var(--danger);">Delete</button>
+                        </td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            }
+
+            function displayAdminMessages() {
+                adminChatMessages.innerHTML = '';
+                messages.forEach(message => {
+                    const messageElement = document.createElement('div');
+                    messageElement.className = `chat-message ${message.sender}`;
+                    messageElement.textContent = `${message.sender === 'user' ? 'Client' : 'Admin'}: ${message.text}`;
+                    adminChatMessages.appendChild(messageElement);
+                });
+            }
+
+            function openBookingModal(id, isTour = false) {
+                const item = isTour ? tours.find(t => t.id === id) : properties.find(p => p.id === id);
+                if (item) {
+                    document.getElementById('booking-property-id').value = id;
+                    document.getElementById('booking-property-title').textContent = item.title;
+                    bookingModal.style.display = 'block';
+                }
+            }
+
+            function openPropertyDetailsModal(propertyId) {
+                const property = properties.find(p => p.id === propertyId);
+                if (property) {
+                    modalPropertyTitle.textContent = property.title;
+                    modalPropertyLocation.textContent = property.location;
+                    modalPropertyPrice.textContent = property.price ? `Ksh ${property.price.toLocaleString()}` : "Price Not Available";
+                    
+                    // Add images to gallery
+                    propertyGallery.innerHTML = '';
+                    property.images.forEach(image => {
+                        const img = document.createElement('img');
+                        img.src = image;
+                        img.alt = property.title;
+                        propertyGallery.appendChild(img);
+                    });
+                    
+                    // Add full description
+                    propertyFullDescription.innerHTML = `
+                        <p>${property.description}</p>
+                        <p style="margin-top: 1rem;">This beautiful ${property.bedrooms}-bedroom property in ${property.location} offers the perfect blend of comfort and luxury. With ${property.bathrooms} bathrooms and a range of modern amenities, it's ideal for families, events, or as a peaceful retreat.</p>
+                    `;
+                    
+                    // Add amenities
+                    propertyAmenitiesList.innerHTML = '';
+                    property.amenities.forEach(amenity => {
+                        const amenityItem = document.createElement('div');
+                        amenityItem.className = 'amenity-item';
+                        amenityItem.innerHTML = `<i class="fas fa-check-circle"></i> ${amenity}`;
+                        propertyAmenitiesList.appendChild(amenityItem);
+                    });
+                    
+                    // Add basic features
+                    const basicFeatures = document.createElement('div');
+                    basicFeatures.className = 'amenity-item';
+                    basicFeatures.innerHTML = `<i class="fas fa-bed"></i> ${property.bedrooms} Bedrooms`;
+                    propertyAmenitiesList.appendChild(basicFeatures);
+                    
+                    const bathFeature = document.createElement('div');
+                    bathFeature.className = 'amenity-item';
+                    bathFeature.innerHTML = `<i class="fas fa-bath"></i> ${property.bathrooms} Bathrooms`;
+                    propertyAmenitiesList.appendChild(bathFeature);
+                    
+                    // Load Google Map for property location
+                    loadPropertyMap(property.location);
+                    
+                    // Set up the Book Now button
+                    modalBookNowBtn.onclick = function() {
+                        propertyDetailsModal.style.display = 'none';
+                        openBookingModal(propertyId);
+                    };
+                    
+                    propertyDetailsModal.style.display = 'block';
+                }
+            }
+            
+            function openBlogPostModal(blogId) {
+                const post = blogPosts.find(p => p.id === blogId);
+                if (post) {
+                    const modal = document.createElement('div');
+                    modal.className = 'modal';
+                    modal.style.display = 'block';
+                    
+                    modal.innerHTML = `
+                        <div class="modal-content" style="max-width: 800px;">
+                            <span class="close">&times;</span>
+                            <h2>${post.title}</h2>
+                            <div style="display: flex; justify-content: space-between; margin: 1rem 0; color: var(--secondary); font-size: 0.9rem;">
+                                <span><i class="fas fa-user"></i> ${post.author}</span>
+                                <span><i class="fas fa-calendar"></i> ${formatDate(post.date)}</span>
+                            </div>
+                            <img src="${post.image}" alt="${post.title}" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px; margin-bottom: 1.5rem;">
+                            <div>${post.content}</div>
+                        </div>
+                    `;
+                    
+                    document.body.appendChild(modal);
+                    
+                    const closeBtn = modal.querySelector('.close');
+                    closeBtn.addEventListener('click', () => {
+                        modal.style.display = 'none';
+                        setTimeout(() => {
+                            document.body.removeChild(modal);
+                        }, 300);
+                    });
+                    
+                    window.addEventListener('click', (e) => {
+                        if (e.target === modal) {
+                            modal.style.display = 'none';
+                            setTimeout(() => {
+                                document.body.removeChild(modal);
+                            }, 300);
+                        }
+                    });
+                }
+            }
+            
+            function loadPropertyMap(location) {
+                // This is a placeholder for Google Maps integration
+                // In a real implementation, you would use the Google Maps API
+                const mapContainer = document.getElementById('property-map');
+                mapContainer.innerHTML = `
+                    <div style="background-color: #e9ecef; height: 100%; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+                        <div style="text-align: center;">
+                            <i class="fas fa-map-marker-alt" style="font-size: 2rem; color: var(--accent); margin-bottom: 0.5rem;"></i>
+                            <p>Map view for ${location}</p>
+                            <p style="font-size: 0.8rem; color: var(--secondary);"></p>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            function loadMainMap() {
+                // This is a placeholder for Google Maps integration
+                // In a real implementation, you would use the Google Maps API
+                const mapContainer = document.getElementById('map');
+                mapContainer.innerHTML = `
+                    <div style="background-color: #e9ecef; height: 100%; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+                        <div style="text-align: center;">
+                            <i class="fas fa-map-marker-alt" style="font-size: 2rem; color: var(--accent); margin-bottom: 0.5rem;"></i>
+                            <p>Our Location</p>
+                            <p style="font-size: 0.8rem; color: var(--secondary);">Kiambu, Central Province, Kenya</p>
+                        </div>
+                    </div>
+                `;
+            }
+            
+
+            function displayCalendar(propertyId) {
+                const property = properties.find(p => p.id === parseInt(propertyId));
+                if (!property) return;
+
+                availabilityCalendar.innerHTML = '';
+                const currentDate = new Date();
+                const daysInMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate();
+
+                for (let i = 1; i <= daysInMonth; i++) {
+                    const dayElement = document.createElement('div');
+                    dayElement.className = 'calendar-day';
+                    dayElement.textContent = i;
+
+                    const dateString = `${currentDate.getFullYear()}-${(currentDate.getMonth() + 1).toString().padStart(2, '0')}-${i.toString().padStart(2, '0')}`;
+                    if (property.availability[dateString] === 'available') {
+                        dayElement.classList.add('available');
+                    } else if (property.availability[dateString] === 'booked') {
+                        dayElement.classList.add('booked');
+                    }
+
+                    dayElement.addEventListener('click', () => toggleAvailability(propertyId, dateString));
+                    availabilityCalendar.appendChild(dayElement);
+                }
+            }
+
+            function toggleAvailability(propertyId, date) {
+                const property = properties.find(p => p.id === parseInt(propertyId));
+                if (!property) return;
+
+                if (!property.availability[date]) {
+                    property.availability[date] = 'available';
+                } else if (property.availability[date] === 'available') {
+                    property.availability[date] = 'booked';
+                } else {
+                    delete property.availability[date];
+                }
+
+                displayCalendar(propertyId);
+            }
+
+            function displayOffers() {
+                offersList.innerHTML = '';
+                offers.forEach((offer, index) => {
+                    const li = document.createElement('li');
+                    li.style.display = 'flex';
+                    li.style.justifyContent = 'space-between';
+                    li.style.alignItems = 'center';
+                    li.style.marginBottom = '0.5rem';
+                    li.style.padding = '0.5rem';
+                    li.style.backgroundColor = '#f8f9fa';
+                    li.style.borderRadius = '5px';
+                    
+                    li.innerHTML = `
+                        <span>${offer}</span>
+                        <button class="btn delete-offer" data-index="${index}" style="background-color: var(--danger); padding: 0.3rem 0.6rem;">Delete</button>
+                    `;
+                    offersList.appendChild(li);
+                });
+
+                document.querySelectorAll('.delete-offer').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const index = parseInt(this.getAttribute('data-index'));
+                        deleteOffer(index);
+                    });
+                });
+
+                if (offers.length > 0) {
+                    offerBanner.textContent = offers[0];
+                    offerBanner.style.display = 'block';
+                } else {
+                    offerBanner.style.display = 'none';
+                }
+            }
+
+            function deleteOffer(index) {
+                offers.splice(index, 1);
+                displayOffers();
+            }
+
+            // Send booking to WhatsApp
+            function sendBookingToWhatsApp(booking) {
+                const specialRequests = [];
+                document.querySelectorAll('input[type="checkbox"]:checked').forEach(checkbox => {
+                    specialRequests.push(checkbox.name);
+                });
+                
+                const message = `
+*New Booking Request*
+Property: ${booking.property}
+Client: ${booking.client}
+Date: ${booking.date}
+Contact: ${booking.contact}
+Email: ${booking.email}
+${specialRequests.length > 0 ? `Special Requests: ${specialRequests.join(', ')}` : ''}
+${booking.message ? `Message: ${booking.message}` : ''}
+                `;
+                
+                const encodedMessage = encodeURIComponent(message);
+                const whatsappURL = `https://wa.me/254797797225?text=${encodedMessage}`;
+                
+                // Open WhatsApp in a new tab
+                window.open(whatsappURL, '_blank');
+            }
+
+            // Chatbot functionality
+            const chatbotResponses = {
+                greeting: "Hello! Welcome to geo nat africa properties. How can I assist you today?",
+                properties: "We have a wide range of properties available, both furnished and unfurnished. Are you looking for something specific?",
+                location: "We have properties in various locations including Ruiru, Kasarani, Village Market, Thome, and more. Which area interests you?",
+                price: "Our properties range in price depending on location, size, and amenities. What's your budget?",
+                contact: "You can reach us via WhatsApp, email, or phone. Would you like me to provide you with the contact information?",
+                tours: "We offer various tours including Kereita Forest Adventure, Nairobi National Park Day Tour, and Mombasa vacation packages. Would you like more information about any of these?",
+                default: "Hello! Wait a moment, our team is getting back to you",
+            };
+
+            function getChatbotResponse(message) {
+                message = message.toLowerCase();
+                if (message.includes("hello") || message.includes("hi")) {
+                    return chatbotResponses.greeting;
+                } else if (message.includes("property") || message.includes("house") || message.includes("home")) {
+                    return chatbotResponses.properties;
+                } else if (message.includes("location") || message.includes("where")) {
+                    return chatbotResponses.location;
+                } else if (message.includes("price") || message.includes("cost") || message.includes("budget")) {
+                    return chatbotResponses.price;
+                } else if (message.includes("contact") || message.includes("reach") || message.includes("call")) {
+                    return chatbotResponses.contact;
+                } else if (message.includes("tour") || message.includes("trip") || message.includes("travel")) {
+                    return chatbotResponses.tours;
+                } else {
+                    return chatbotResponses.default;
+                }
+            }
+
+            function addMessageToChat(sender, text) {
+                const messageElement = document.createElement('div');
+                messageElement.className = `chat-message ${sender}`;
+                messageElement.textContent = sender === 'user' ? text : text;
+                chatMessages.appendChild(messageElement);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+
+                messages.push({ sender, text });
+                displayAdminMessages();
+            }
+
+            // Event Listeners
+            adminLoginBtn.addEventListener('click', () => {
+                loginModal.style.display = 'block';
+            });
+
+            loginForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const username = document.getElementById('username').value;
+                const password = document.getElementById('password').value;
+                if (username === 'alex.eva' && password === 'booknow6733') {
+                    adminDashboard.style.display = 'block';
+                    loginModal.style.display = 'none';
+                    document.querySelector('header').style.display = 'none';
+                    document.querySelector('main').style.display = 'none';
+                    document.querySelector('footer').style.display = 'none';
+                    chatIcon.style.display = 'none';
+                    whatsappCall.style.display = 'none';
+                    displayPropertiesTable();
+                    displayBookingsTable();
+                    displayReviewsTable();
+                    displayBlogTable();
+                    displayAdminMessages();
+                    displayOffers();
+                } else {
+                    alert('Invalid credentials');
+                }
+            });
+
+            logoutBtn.addEventListener('click', () => {
+                adminDashboard.style.display = 'none';
+                document.querySelector('header').style.display = 'block';
+                document.querySelector('main').style.display = 'block';
+                document.querySelector('footer').style.display = 'block';
+                chatIcon.style.display = 'flex';
+                whatsappCall.style.display = 'flex';
+            });
+
+            addPropertyBtn.addEventListener('click', () => {
+                addPropertyModal.style.display = 'block';
+            });
+
+            addPropertyForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const imageUrls = document.getElementById('property-images').value.split(',').map(url => url.trim());
+                
+                const newProperty = {
+                    id: properties.length + 1,
+                    title: document.getElementById('property-title').value,
+                    price: parseInt(document.getElementById('property-price').value),
+                    location: document.getElementById('property-location').value,
+                    bedrooms: parseInt(document.getElementById('property-bedrooms').value),
+                    bathrooms: parseInt(document.getElementById('property-bathrooms').value),
+                    type: document.getElementById('property-type').value,
+                    images: imageUrls.length > 0 ? imageUrls : ["image1.jpg"],
+                    description: document.getElementById('property-description').value,
+                    rating: 0,
+                    reviews: 0,
+                    availability: {},
+                    amenities: ["New property", "Modern design", "Great location"]
+                };
+                properties.push(newProperty);
+                displayProperties();
+                displayPropertiesTable();
+                addPropertyModal.style.display = 'none';
+                addPropertyForm.reset();
+            });
+            
+            addBlogBtn.addEventListener('click', () => {
+                addBlogModal.style.display = 'block';
+            });
+            
+            addBlogForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const newBlog = {
+                    id: blogPosts.length + 1,
+                    title: document.getElementById('blog-title').value,
+                    image: document.getElementById('blog-image').value,
+                    date: new Date().toISOString().split('T')[0],
+                    author: "Admin",
+                    excerpt: document.getElementById('blog-excerpt').value,
+                    content: document.getElementById('blog-content').innerHTML,
+                    status: "Published"
+                };
+                blogPosts.push(newBlog);
+                displayBlogPosts();
+                displayBlogTable();
+                addBlogModal.style.display = 'none';
+                addBlogForm.reset();
+                document.getElementById('blog-content').innerHTML = '';
+            });
+            
+            // Blog editor toolbar functionality
+            document.querySelectorAll('.blog-editor-toolbar button').forEach(button => {
+                button.addEventListener('click', function() {
+                    const command = this.getAttribute('data-command');
+                    if (command === 'createLink') {
+                        const url = prompt('Enter the link URL:');
+                        if (url) document.execCommand(command, false, url);
+                    } else if (command === 'insertImage') {
+                        const url = prompt('Enter the image URL:');
+                        if (url) document.execCommand(command, false, url);
+                    } else {
+                        document.execCommand(command, false, null);
+                    }
+                    document.getElementById('blog-content').focus();
+                });
+            });
+
+            document.querySelector('.dashboard-nav').addEventListener('click', (e) => {
+                if (e.target.tagName === 'A' && e.target.getAttribute('data-section')) {
+                    const section = e.target.getAttribute('data-section');
+                    document.querySelectorAll('.dashboard-section').forEach(s => s.style.display = 'none');
+                    document.getElementById(`${section}-section`).style.display = 'block';
+                }
+            });
+
+            // Chat icon click
+            chatIcon.addEventListener('click', () => {
+                chatContainer.style.display = 'flex';
+                chatIcon.style.display = 'none';
+            });
+
+            chatSendBtn.addEventListener('click', () => {
+                const message = chatInput.value.trim();
+                if (message) {
+                    addMessageToChat('user', message);
+                    chatInput.value = '';
+                    setTimeout(() => {
+                        const botResponse = getChatbotResponse(message);
+                        addMessageToChat('bot', botResponse);
+                    }, 500);
+                }
+            });
+
+            chatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    chatSendBtn.click();
+                }
+            });
+
+            closeChatBtn.addEventListener('click', () => {
+                chatContainer.style.display = 'none';
+                chatIcon.style.display = 'flex';
+            });
+
+            // WhatsApp call button
+            whatsappCall.addEventListener('click', () => {
+                if (whatsappPopup.style.display === 'block') {
+                    whatsappPopup.style.display = 'none';
+                } else {
+                    whatsappPopup.style.display = 'block';
+                }
+            });
+
+            // Close WhatsApp popup when clicking outside
+            document.addEventListener('click', (e) => {
+                if (whatsappPopup.style.display === 'block' && 
+                    !whatsappPopup.contains(e.target) && 
+                    e.target !== whatsappCall) {
+                    whatsappPopup.style.display = 'none';
+                }
+            });
+
+            adminChatSendBtn.addEventListener('click', () => {
+                const message = adminChatInput.value.trim();
+                if (message) {
+                    addMessageToChat('admin', message);
+                    adminChatInput.value = '';
+                }
+            });
+
+            adminChatInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    adminChatSendBtn.click();
+                }
+            });
+
+            calendarPropertySelect.addEventListener('change', (e) => {
+                displayCalendar(e.target.value);
+            });
+
+            addOfferForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const offerText = document.getElementById('offer-text').value;
+                offers.push(offerText);
+                displayOffers();
+                addOfferForm.reset();
+            });
+
+            bookingForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const propertyId = parseInt(document.getElementById('booking-property-id').value);
+                const property = properties.find(p => p.id === propertyId);
+                
+                if (property) {
+                    // Collect special requests
+                    const specialRequests = [];
+                    document.querySelectorAll('input[type="checkbox"]:checked').forEach(checkbox => {
+                        specialRequests.push(checkbox.name);
+                    });
+                    
+                    const booking = {
+                        id: bookings.length + 1,
+                        property: property.title,
+                        client: document.getElementById('booking-name').value,
+                        date: document.getElementById('booking-date').value,
+                        contact: document.getElementById('booking-phone').value,
+                        email: document.getElementById('booking-email').value,
+                        message: document.getElementById('booking-message').value,
+                        specialRequests: specialRequests.join(', '),
+                        status: "Pending"
+                    };
+                    
+                    bookings.push(booking);
+                    displayBookingsTable();
+                    bookingModal.style.display = 'none';
+                    
+                    // Send booking to WhatsApp
+                    sendBookingToWhatsApp(booking);
+                    
+                    bookingSuccessModal.style.display = 'block';
+                    bookingForm.reset();
+                }
+            });
+
+            closeSuccessModalBtn.addEventListener('click', () => {
+                bookingSuccessModal.style.display = 'none';
+            });
+
+            modalCloseBtn.addEventListener('click', () => {
+                propertyDetailsModal.style.display = 'none';
+            });
+
+            mobileMenuBtn.addEventListener('click', () => {
+                navLinks.classList.toggle('show');
+            });
+
+            // Property tabs functionality
+            propertyTabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    propertyTabs.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                    const category = this.getAttribute('data-category');
+                    displayProperties(category);
+                });
+            });
+            
+            // Filter functionality
+            applyFiltersBtn.addEventListener('click', () => {
+                const filters = {
+                    location: locationFilter.value,
+                    type: typeFilter.value,
+                    minPrice: minPriceFilter.value ? parseInt(minPriceFilter.value) : null,
+                    maxPrice: maxPriceFilter.value ? parseInt(maxPriceFilter.value) : null
+                };
+                
+                displayProperties('all', filters);
+            });
+            
+            resetFiltersBtn.addEventListener('click', () => {
+                locationFilter.value = '';
+                typeFilter.value = '';
+                minPriceFilter.value = '';
+                maxPriceFilter.value = '';
+                
+                displayProperties('all');
+            });
+
+            // Close modals
+            document.querySelectorAll('.close').forEach(closeBtn => {
+                closeBtn.addEventListener('click', () => {
+                    closeBtn.closest('.modal').style.display = 'none';
+                });
+            });
+
+            // Close modals when clicking outside
+            window.addEventListener('click', (e) => {
+                if (e.target.classList.contains('modal')) {
+                    e.target.style.display = 'none';
+                }
+                if (e.target.classList.contains('property-details-modal')) {
+                    e.target.style.display = 'none';
+                }
+            });
+            
+            // Review submission
+            window.submitReview = function() {
+                const rating = document.querySelector('input[name="rating"]:checked');
+                const reviewText = document.getElementById("reviewText").value;
+
+                if (!rating) {
+                    alert("Please select a rating.");
+                    return;
+                }
+                if (!reviewText.trim()) {
+                    alert("Please write a review.");
+                    return;
+                }
+
+                // Create review element
+                const reviewDiv = document.createElement("div");
+                reviewDiv.classList.add("review");
+                reviewDiv.innerHTML = `<strong>${rating.value} ⭐</strong><p>${reviewText}</p>`;
+
+                // Append to review list
+                document.getElementById("reviewsList").appendChild(reviewDiv);
+                
+                // Add to reviews array for admin dashboard
+                const review = {
+                    id: reviews.length + 1,
+                    property: "General",
+                    client: "Website User",
+                    rating: rating.value,
+                    text: reviewText
+                };
+                
+                reviews.push(review);
+                displayReviewsTable();
+
+                // Clear form after submission
+                document.getElementById("reviewText").value = "";
+                document.querySelector('input[name="rating"]:checked').checked = false;
+            };
+
+            // Initial display
+            setupHeroSlider();
+            displayProperties();
+            displayTours();
+            displayBlogPosts();
+            displayOffers();
+            loadMainMap();
+
+            // Populate property select for calendar
+            properties.forEach(property => {
+                const option = document.createElement('option');
+                option.value = property.id;
+                option.textContent = property.title;
+                calendarPropertySelect.appendChild(option);
+            });
+
+            // Display calendar for first property
+            if (properties.length > 0) {
+                displayCalendar(properties[0].id);
+            }
+        });
+    </script>
+</body>
+</html>
+
